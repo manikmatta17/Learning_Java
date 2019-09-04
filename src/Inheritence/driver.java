@@ -8,6 +8,7 @@ public class driver {
 		TS.opensource();
 		TS.FunctionTesting();
 		TS.SaveManualEffort();
+		
 		TS.Regression();
 		TS.MobileAutomation();
 

@@ -7,6 +7,11 @@ public class AutomationTesting {
 		System.out.println("Regression testing from Automation Testing-Parent");
 
 	}
+	
+	public AutomationTesting () {
+		
+		System.out.println("Automation testing constructor -Parent");
+	}
 
 	public static void FunctionTesting()
 

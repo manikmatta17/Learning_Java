@@ -8,6 +8,11 @@ public class ToolSelenium extends AutomationTesting {
 
 	}
 
+	public ToolSelenium() {
+
+		System.out.println("Tool Selenium constructor - Child");
+	}
+
 	public static void MobileAutomation() {
 
 		System.out.println("It perform Mobile Autoamtion");
@@ -15,6 +20,9 @@ public class ToolSelenium extends AutomationTesting {
 
 	public void Regression() {
 
+		super.Regression();
+		
+		
 		System.out.println("Regression testing from Tool Selenium-Child");
 
 	}
